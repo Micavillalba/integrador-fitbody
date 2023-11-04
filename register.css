@@ -43,6 +43,21 @@ nav{
     color: #fe5d9f;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.navbar i {
+    font-size: 36px;
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
+}
+
 .nav__list li {
 	position: relative;
 }

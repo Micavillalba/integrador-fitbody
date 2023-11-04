@@ -1,0 +1,36 @@
+/*menu hamburguesa*/
+
+@media (max-width: 576px) {
+    .nav__list {
+        background-color: white;
+        width: 100%;
+        height: calc(100vh - 65px);
+        position: absolute;
+        top:65px;
+        left: 0;
+        flex-direction: column;
+        display: none;
+    }
+
+    .navbar i{
+        display: block;
+    }
+
+    #toggle-menu:checked ~ .nav__list {
+        display: flex;
+    }
+
+}
+
+
+/*tablet*/
+@media (max-width: 992px) {
+
+}
+
+/* celular */
+@media (max-width: 578px) {
+
+
+}
+
