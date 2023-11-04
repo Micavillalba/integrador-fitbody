@@ -1,4 +1,4 @@
-/*menu hamburguesa*/
+/*celular*/
 
 @media (max-width: 576px) {
     .nav__list {
@@ -12,25 +12,89 @@
         display: none;
     }
 
+    .login img {
+        width: 30px;
+    }
     .navbar i{
         display: block;
     }
 
     #toggle-menu:checked ~ .nav__list {
         display: flex;
+
     }
 
+    #home {
+        background: none;
+        height: 100%;
+    }
+
+    .hero__info h1 {
+        font-size: 3.5rem;
+        padding: 0 30px 0 30px;
+        text-align: center;
+
+    }
+
+    #beneficios {
+        flex-direction: column;
+        max-height: 100%;
+    }
+    .descripción {
+        padding: 0;
+    }
+
+    .beneficio__container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    
+    #planes{
+        padding: 10px 0;
+    }
+    .planes__title{
+        font-size: 1.5rem;
+
+    }
+
+
+    .cards__container{
+        flex-direction: column;
+    }
+
+    #contact{
+        max-width: 600px;
+        padding: 30px 0;
+    }
+
+    .contact__container {
+        box-shadow: none;
+    }
 }
 
 
 /*tablet*/
 @media (max-width: 992px) {
 
-}
+    .hero__info h1 {
+        font-size: 4.3rem;
+        padding: 0 30px 0 30px;
+        text-align: center;
 
-/* celular */
-@media (max-width: 578px) {
+    }    
 
+    .descripción {
+        font-size: 1.3rem;
+    }
 
-}
+    .beneficio {
+        max-width: 300px;
 
+    }
+
+    .beneficio p{
+        font-size: 18px;
+    }
+
+    }
