@@ -9,9 +9,10 @@
 	list-style: none;
 }
 
-
 body {
-    background-color: #f1e4f3;
+   background: rgb(241,228,243);
+background: linear-gradient(215deg, rgba(241,228,243,1) 0%, rgba(235,59,169,0.39548319327731096) 100%);
+
 }
 
 header {
@@ -53,8 +54,9 @@ nav{
 }
 
 .nav__list a:hover {
-    color: #ff0a54;
+    color: #898787;
 }
+ 
 
 .login img{
     width: 25px;
@@ -67,11 +69,11 @@ nav{
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
-}
-
-.hero__container{
-    display: flex;
-    
+    background: url(../assets/home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero__info {
@@ -237,7 +239,7 @@ nav{
 .contact__container h3 {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
-    color: #fe5d9f;
+    color: #ff0a54;
 }
 
 .contact__container input {

@@ -1,0 +1,33 @@
+.html{
+    scroll-behavior: smooth;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes slide-right {
+	from {
+		transform: translateX(100px);
+	}
+
+	to {
+		transform: translateX(0px);
+	}
+}
+
+
+.beneficio__container img {
+    cursor: pointer;
+	transition: all 0.5s;
+}
+
+.beneficio__container img:hover {
+	transform: scale(1.1);
+	transition: all 0.5s;
+}
