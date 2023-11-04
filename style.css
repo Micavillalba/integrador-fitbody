@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+body {
+    background-color: #f1e4f3;
+}
+
+header {
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    position: fixed;
+    z-index: 2;
+	padding: 0 50px;
+	width: 100%;
+	height: 65px;
+}
+
+.nav__list {
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+	max-width: 1200px;
+	gap: 50px;
+}
+
+.nav__logo {
+    font-family: 'Poppins', sans-serif;
+    color: #fe5d9f;
+}
+
+.nav__list li {
+	position: relative;
+}
+
+.nav__list a{
+    color: #f686bd;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav__list a:hover {
+    color: #ff0a54;
+}
+
+#home {
+    width: 100%;
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.hero__container{
+    display: flex;
+    
+}
+
+.hero__info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero__info h1{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 5rem;
+    color: rgb(46, 46, 46);
+}
+.btn {
+	padding: 8px 20px;
+    border: solid 3px;
+	border-radius: 1rem;
+    border-color: #fe5d9f;
+    font-family: 'Poppins', sans-serif;
+    color: #fe5d9f;
+}
+
+.btn:hover {
+    background-color: #fe5d9f;
+    color:white;
+}
+
+#beneficios {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+	margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.beneficio__container {
+    display: flex;
+}
+.beneficio {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
