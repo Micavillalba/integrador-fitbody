@@ -163,7 +163,7 @@ header {
 #planes {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+  
     max-width: 1200px;
 	margin: 0 auto;
     justify-content: center;

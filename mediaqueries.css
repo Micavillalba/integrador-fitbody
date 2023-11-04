@@ -97,4 +97,10 @@
         font-size: 18px;
     }
 
+    .cards__container{
+        flex-wrap: wrap;
+        max-width: 800px;
+        gap: 50px;
+    }
+
     }
