@@ -3,68 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./register.css">
     <title>Fitbody-Register</title>
 </head>
 <body>
     <header>
-        <div class="nav__logo">
-            <h1>Fit Body</h1>
+    <div class="nav__logo">
+        <h1>Fit Body</h1>
+    </div>
+    <nav>
+        <ul class="nav__list">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html">Beneficios</a></li>
+            <li><a href="./index.html">Planes</a></li>
+            <li><a href="./index.html">Contacto</a></li>
+        </ul>
+        <div class="login">
+            <a href="./login.html"><img src="./assets/usuario.svg" alt="login"></a>
         </div>
-        <nav>
-            <ul class="nav__list">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./index.html">Beneficios</a></li>
-                <li><a href="./index.html">Planes</a></li>
-                <li><a href="./index.html">Contacto</a></li>
-                <li><a href="./login.html">Login</a></li>
-                <li><a href="./register.html">Registro</a></li>
-            </ul>
-        </nav>
-    </header>
+        
+    </nav>
+</header>
+      
 
     <section>
         <div class="container__register">
-          <h1>Register</h1>
-
-        <div class="container__forms-inputs">
-          <form action="">
-            <p>Name:</p>
-            <label for=""></label>
-            <input type="text" class="inputs" required />
-          </form>
-          <form action="">
-            <p>Email:</p>
-            <label for=""></label>
-            <input type="email" class="inputs" required />
-          </form>
-          <form action="">
-            <p>Password:</p>
-            <label for=""></label>
-            <input type="password" class="inputs" required />
-          </form>
-          <form action="">
-            <input type="checkbox" id="Terminos" />
-            <label for="Terminos"> I accept the terms and conditions</label>
-          </form>
-          <form action="">
-            <input
-              type="submit"
-              id="send"
-              name="Send"
-              class="btm__send-register"
-              required
-            />
-          </form>
-          <div>
-            <p>
-              Do you already have an account?<a
-                class="sign__in"
-                href="./login.html"
-                >Sign In</a
-              >
-            </p>
-          </div>
-        </div>
+          <h1>Registro</h1>
+        
+         <form class="container__form">
+				<input type="text" placeholder="Nombre" class="datos__input" />
+				<input type="text" placeholder="Apellido" class="datos__input" />
+				<input type="email" placeholder="Email" class="datos__input" />
+				<input type="password" placeholder="Contraseña" class="datos__input" />
+				<input
+					type="password"
+					placeholder="Repetir contraseña"
+					class="datos__input" />
+				<a href="#" class="btn__submit">Registrar</a>
+			</form>
+        
       </div>
     </section>
 

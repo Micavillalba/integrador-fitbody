@@ -3,60 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
     <title>Fitbody-login</title>
 </head>
 <body>
-     <header>
-        <div class="nav__logo">
-            <h1>Fit Body</h1>
+  <header>
+    <div class="nav__logo">
+        <h1>Fit Body</h1>
+    </div>
+    <nav>
+        <ul class="nav__list">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html">Beneficios</a></li>
+            <li><a href="./index.html">Planes</a></li>
+            <li><a href="./index.html">Contacto</a></li>
+        </ul>
+        <div class="login">
+            <a href="./login.html"><img src="./assets/usuario.svg" alt="login"></a>
         </div>
-        <nav>
-            <ul class="nav__list">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./index.html">Beneficios</a></li>
-                <li><a href="./index.html">Planes</a></li>
-                <li><a href="./index.html">Contacto</a></li>
-                <li><a href="./login.html">Login</a></li>
-                <li><a href="./register.html">Registro</a></li>
-            </ul>
-        </nav>
-    </header>
+        
+    </nav>
+</header>
      <section>
       <div class="container__login">
-          <h1>Login</h1>
-        <div class="container__forms">
-          <form action="">
-            <p>Email:</p>
-            <label for=""></label>
-            <input type="email" class="inputs" required />
+          <h1>Iniciar sesión</h1>
+        <form class="container__forms">
+          <input type="email" placeholder="Email" class="datos__input" />
+				<input type="password" placeholder="Password" class="datos__input" />
+				
+        <a href="#" class="btn__submit">Ingresar</a>
           </form>
-          <form action="">
-            <p>Password:</p>
-            <label for=""></label>
-            <input type="password" class="inputs" required />
-          </form>
-          <form action="">
-            <input type="checkbox" id="contraseña" />
-            <label for="contraseña">Remember Password</label>
-          </form>
-          <form action="">
-            <input
-              type="submit"
-              id="send"
-              name="send"
-              class="btn__send-register"
-              required
-            />
-          </form>
-          <div class="p__account">
-            <p>
-              Don't you have an account?<a
+
+      <div class="concuenta">
+            <p>¿Ya tienes una cuenta?<a
                 class="sign__in"
                 href="./register.html"
-                >Sign Up</a>
+                >Registrate acá</a>
             </p>
-          </div>
-        </div>
+      </div>
+
       </div>
     </section>
 

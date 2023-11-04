@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+body {
+    background-color: #f1e4f3;
+}
+
+header {
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    position: fixed;
+	padding: 0 50px;
+	width: 100%;
+	height: 65px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
+.nav__list {
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+	max-width: 1200px;
+	gap: 50px;
+}
+
+.nav__logo {
+    font-family: 'Poppins', sans-serif;
+    color: #fe5d9f;
+}
+
+.nav__list li {
+	position: relative;
+}
+
+.nav__list a{
+    color: #f686bd;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav__list a:hover {
+    color: #ff0a54;
+}
+
+.login img{
+    width: 25px;
+}
+.container__login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	height: 75vh;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.container__login h1 {
+	font-size: 25px;
+	margin-bottom: 20px;
+	color: #ff0a54;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container__forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.datos__input {
+	width: 300px;
+	border: 1px solid #c9c8c8;
+	padding: 15px;
+	border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn__submit {
+    cursor: pointer;
+	margin-top: 20px;
+	font-size: 0.9rem;
+	background-color: #fe5d9f;
+	color: white;
+	padding: 15px 25px;
+	border-radius: 1rem;
+    font-family: 'Poppins', sans-serif;
+	
+}
+
+.concuenta p {
+	font-size: 1rem;
+	cursor: pointer;
+     font-family: 'Poppins', sans-serif;
+}
+
+.concuenta a {
+    font-size: 1rem;
+	color: #ff0a54;
+	cursor: pointer;
+}
+
+footer {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+  margin-top: 70px;
+}
+
+h4 {
+  font-size: 1rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #898787;
+}

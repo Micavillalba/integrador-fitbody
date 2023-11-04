@@ -20,12 +20,16 @@ header {
 	justify-content: space-between;
 	align-items: center;
     position: fixed;
-    z-index: 2;
 	padding: 0 50px;
 	width: 100%;
 	height: 65px;
 }
 
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
 .nav__list {
 	display: flex;
 	align-items: center;
@@ -50,6 +54,10 @@ header {
 
 .nav__list a:hover {
     color: #ff0a54;
+}
+
+.login img{
+    width: 25px;
 }
 
 #home {
@@ -98,7 +106,7 @@ header {
     flex-direction: column;
     max-width: 1200px;
 	margin: 0 auto;
-    height: 750px;
+    height: 620px;
     justify-content: center;
     align-items: center;
     gap: 40px;
@@ -144,11 +152,12 @@ header {
 #planes {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     max-width: 1200px;
 	margin: 0 auto;
+    height: 700px;
     justify-content: center;
     align-items: center;
-    align-self: baseline;
     gap: 70px;
     
 }
@@ -159,27 +168,30 @@ header {
 }
 .cards__container {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
     max-width: 1200px;
-    margin: 0 auto;
+    height: 400px;
     gap: 10px;
+    
 }
 
 .cards__img img {
     width: 200px;
-    text-align: center;
+    border-radius: 0.7rem;
 }
 
 .cards__planes {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    align-self: baseline;
-    width: 250px;
-
+    align-items:center;
+    max-width: 300px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 1rem;
+    
 }
 
 .cards__info {
@@ -191,4 +203,81 @@ header {
     text-align: center;
 }
 
+.cards__info h2, p {
+    font-family: 'Poppins', sans-serif;
 
+}
+.cards__info h2 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+
+#contact {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+    padding : 10px 0 30px;
+}
+
+.contact__container {
+	max-width: 800px;
+	width: 100%;
+	padding: 20px 30px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+}
+
+.contact__container h3 {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fe5d9f;
+}
+
+.contact__container input {
+	width: 100%;
+	border: 1px solid #c9c8c8;
+	padding: 15px;
+	border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact__container textarea {
+	height: 100px;
+	width: 100%;
+	background: #fff;
+	margin: 0 0 5px;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+.contact__container button {
+	cursor: pointer;
+    background-color: #fe5d9f;
+	color: #fff;
+	padding: 8px 20px;
+	border-radius: 20px;
+    border-color: #fe5d9f;
+}
+
+footer {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+h4 {
+  font-size: 1rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #898787;
+
+}
