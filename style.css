@@ -100,10 +100,10 @@ header {
 	margin: 0 auto;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
-#beneficios p {
+.descripción {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     padding: 20px;
@@ -115,16 +115,22 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 0px;
+	max-width: 1200px;
+    gap: 40px;
+
 }
 .beneficio {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 350px;
+    gap: 30px;
 }
 
-.beneficio img {
-
+.beneficio__container img {
+    border-radius: 50%;
 }
 
 
