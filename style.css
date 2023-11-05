@@ -215,11 +215,12 @@ header {
 
 .cards__info h2, p {
     font-family: 'Poppins', sans-serif;
-
+    
 }
 .cards__info h2 {
     font-size: 20px;
     padding-top: 10px;
+    color:#ff0a54;
 }
 
 
@@ -268,12 +269,16 @@ header {
 }
 
 .contact__container button {
-	cursor: pointer;
-    background-color: #fe5d9f;
-	color: #fff;
-	padding: 8px 20px;
-	border-radius: 20px;
-    border-color: #fe5d9f;
+    width: 100%;
+    cursor: pointer;
+	margin-top: 20px;
+	font-size: 1rem;
+	background-color: #fe5d9f;
+	color: white;
+	padding: 15px 25px;
+	border-radius: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 footer {
